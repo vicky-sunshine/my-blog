@@ -23,7 +23,7 @@ $ gem install rails --no-ri --no-rdoc
 ```
 
 ## Ruby Basic
-可以去
+可以去 [TryRuby](http://tryruby.org/) 或 [codecademy](https://www.codecademy.com/learn/ruby)
 
 
 ## Rails - Build a Blog!
