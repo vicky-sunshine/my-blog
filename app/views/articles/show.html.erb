@@ -11,8 +11,7 @@
 </p>
 
 <p>
-  <strong>Picture:</strong>
-  <%= @article.picture %>
+  <%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
