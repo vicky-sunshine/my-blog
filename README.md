@@ -1,11 +1,36 @@
 # Rails Girls Notes
 ## Environment
+install homebrew
+```sh
+$ xcode-select --install
+$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```
+install rvm
+```sh
+$ brew install autoconf automake libtool libyaml readline libksba openssl
+$ brew install rvm
+```
+利用 rvm 裝 ruby
+```sh
+$ rvm install ruby-head
+$ rvm use ruby-head
+```
+裝 bundler 和 rake
+```sh
+$ gem install bundler
+$ gem install rake
+$ gem install rails --no-ri --no-rdoc
+```
 
 ## Ruby Basic
+可以去
+
 
 ## Rails - Build a Blog!
 參考資料
+
 [Rails Girl - 第一個 app](http://railsgirls.tw/app)
+
 [Rails Girl - App 上線至 Heroku](http://railsgirls.tw/heroku)
 ### Step1. 創新專案
 ```
