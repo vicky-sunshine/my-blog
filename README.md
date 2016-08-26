@@ -3,7 +3,7 @@
 install homebrew
 ```sh
 $ xcode-select --install
-$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 install rvm
 ```sh
