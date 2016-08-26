@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ /*nav { margin:auto;}*/
+ footer { margin-top: 100px; }
+ td { text-align: center; padding-left: 10px; }
+ th { border-bottom: 1px solid #DDD; padding-left: 20px; }
