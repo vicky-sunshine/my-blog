@@ -8,7 +8,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 install rvm
 ```sh
 $ brew install autoconf automake libtool libyaml readline libksba openssl
-$ brew install rvm
+$ \curl -sSL https://get.rvm.io | bash -s stable
 ```
 利用 rvm 裝 ruby
 ```sh
@@ -42,7 +42,7 @@ rails server
 
 ### Step2. 新增文章
 ```
-rails generate scaffold title:string content:text picture:string
+rails generate scaffold Article title:string content:text picture:string
 # title 文章標題 string 字串
 # content 文章內容 text 一大段的文字
 # picture 文章圖片 string 之後會用其它套件讓它支援圖片
