@@ -34,22 +34,22 @@ $ gem install rails --no-ri --no-rdoc
 [Rails Girl - App 上線至 Heroku](http://railsgirls.tw/heroku)
 ### Step1. 創新專案
 ```
-rails new blog
-cd blog
-bundle install
-rails server
+$ rails new blog
+$ cd blog
+$ bundle install
+$ rails server
 ```
 
 ### Step2. 新增文章
 ```
-rails generate scaffold Article title:string content:text picture:string
+$ rails generate scaffold Article title:string content:text picture:string
 # title 文章標題 string 字串
 # content 文章內容 text 一大段的文字
 # picture 文章圖片 string 之後會用其它套件讓它支援圖片
 ```
 ```rails
-rake db:migrate # 在 database 裡創表格
-rails server # 把網站跑起來
+$ rake db:migrate # 在 database 裡創表格
+$ rails server # 把網站跑起來
 ```
 
 ### Step3. 加入圖片
@@ -60,12 +60,12 @@ gem 'carrierwave'
 ```
 在終端裡，執行：
 ```
-bundle install
+$ bundle install
 ```
 
 #### 處理上傳圖片的相關程式
 ```
-rails generate uploader Picture
+$ rails generate uploader Picture
 ```
 
 打開 `app/models/article.rb` 並在這行下面
